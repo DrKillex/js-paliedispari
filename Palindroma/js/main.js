@@ -9,11 +9,9 @@ function palindroma(lista1, lista2){
     for (let i = 0; i < lista1.length; i++){
         if (lista1[i] === lista2[i]){
             conferma = true;
-            console.log(conferma)
-        } else {
-            conferma=false
+            console.log(conferma);
         }
-        return conferma
+        return conferma;
     };
 };
 
@@ -31,7 +29,7 @@ for (let i = parola.length - 1; i >= 0; i--){
     spellingReverse.push(parola[i]);
 };
 
-const conferma = palindroma(spelling, spellingReverse)
+const conferma = palindroma(spelling, spellingReverse);
 
 if (conferma === true) {
     alert('la parola è palindroma')
@@ -39,6 +37,6 @@ if (conferma === true) {
     alert('la parola è non palindroma')
 };
 
-console.log(spelling)
-console.log(spellingReverse)
-console.log(conferma)
+console.log(spelling);
+console.log(spellingReverse);
+console.log(conferma);
